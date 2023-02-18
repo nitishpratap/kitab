@@ -1,0 +1,11 @@
+.mainDiv{
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.mainDiv:hover{
+    background-color: rgba(210,210,210,0.1);
+}

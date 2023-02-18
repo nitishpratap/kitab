@@ -9,6 +9,7 @@ interface normalButtonProps {
     title : String,
     width : number,
     height : number,
+    borderRadius : number
 }
 export const RedBackgroundButton = (props : buttonTitle) => {
 
@@ -34,12 +35,12 @@ const [textColor,setTextColor] = useState(red)
         },
     };
     return <div >
-        <Button onMouseEnter={()=>{handleMouseEnter()}} onMouseLeave={()=>{handleMouseLeave()}} sx={buttonSX} variant="outlined" style={{width : props.width, height : props.height, borderColor : '#D3302F', borderWidth : 2, color :  `${textColor}`}} className="normal-button" >{props.title}</Button>
+        <Button onMouseEnter={()=>{handleMouseEnter()}} onMouseLeave={()=>{handleMouseLeave()}} sx={buttonSX} variant="outlined" style={{width : `${props.width}rem`, height : props.height, borderColor : '#D3302F', borderWidth : '2px', color :  `${textColor}`, borderRadius : `${props.borderRadius}px`}} className="normal-button" >{props.title}</Button>
     </div>
 }
 
 export const RentButton = ()=>{
-    return <NormalButton  width={60} height={35} title={"Rent"}  />
+    return <NormalButton  width={6} height={38} borderRadius = {46} title={"Rent"}  />
 }
 
 
