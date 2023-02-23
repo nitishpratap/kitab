@@ -1,3 +1,5 @@
+import {grey} from "@mui/material/colors";
+
 export const BlackText = (props: any) => {
     return (
         <div>
@@ -55,7 +57,7 @@ export const GreyBoldText = () => {
 
 export const Text = (props: any) => {
     let textStyle = {
-        fontWeight: 400,
+        fontWeight: props.fontWeight,
         fontSize: '1.2em',
         color: '#212121'
     }
@@ -76,7 +78,8 @@ export const Text = (props: any) => {
             textStyle = {
                 ...textStyle,
                 fontSize: '1.835rem',
-                color:  '#212121'
+                color:  '#212121',
+                fontWeight: 600
             }
             break;
         case 'heading-red':
@@ -86,7 +89,13 @@ export const Text = (props: any) => {
                 color: '#D3302F'
         }
         break;
-
+        case 'book-name' :
+        textStyle = {
+            ...textStyle,
+            fontSize: "1.2rem",
+            color: "grey"
+        }
+        break
         default : {
 
         }

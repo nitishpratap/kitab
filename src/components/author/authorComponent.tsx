@@ -7,7 +7,7 @@ export const AuthorComponent = (props : any)=>{
         <>
             <div className={"author"}>
                 <img src={author} alt={"author"} style={{width : '100%',height : '90%'}} />
-                <Text text = {props.text} type = 'regular-Heading'/>
+                <Text text = {props.text} type = 'regular-Heading' fontWeight  = {600} />
             </div>
         </>
     )
