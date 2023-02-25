@@ -18,7 +18,7 @@ function App() {
             <Text text="hello from text" textStyle='heading-red'/>
             <Genres text={"hello nitish"} img={image}/>
             <AuthorComponent text = "Nitish author" />
-            <Book title = "Nitish ki book" img = {tempImg}/>
+            <Book title = "hello mahima" img = {tempImg}/>
         </div>
     );
 }
