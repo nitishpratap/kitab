@@ -3,7 +3,6 @@ import './style.css'
 import logo from '../../assets/images/logo.svg'
 
 export const Header = () => {
-    console.log("logo", logo)
     return (
         <>
             <div className={'header flex'}>
