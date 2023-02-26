@@ -1,0 +1,15 @@
+.header{
+    width: 100vw;
+    height: 6rem;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .05);
+
+}
+
+.flex{
+    display: flex;
+}
+.logo{
+    width: 11.25rem;
+    height: 6.25rem;
+}

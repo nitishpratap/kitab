@@ -1,59 +1,5 @@
 import {grey} from "@mui/material/colors";
 
-export const BlackText = (props: any) => {
-    return (
-        <div>
-            {props.text}
-        </div>
-    )
-}
-
-export const GreyText = (props: any) => {
-    return (
-        <div>
-            {props.text}
-        </div>
-    )
-}
-
-export const BlackHeadingText = (props: any) => {
-    return (
-        <div>
-            {props.text}
-        </div>
-    )
-}
-
-export const RedHeadingText = (props: any) => {
-    return (
-        <div>
-            {props.text}
-        </div>
-    )
-}
-
-export const NormalRedText = () => {
-    return (
-        <div>
-
-        </div>
-    )
-}
-export const BlackBoldText = () => {
-    return (
-        <div>
-
-        </div>
-    )
-}
-
-export const GreyBoldText = () => {
-    return (
-        <div>
-
-        </div>
-    )
-}
 
 export const Text = (props: any) => {
     let textStyle = {
