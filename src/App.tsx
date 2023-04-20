@@ -11,10 +11,6 @@ function App() {
     return (
         <div className="App">
             <Header/>
-            <Text text = "hello mahima"/>
-            <button/>
-            <Book/>
-            <RentButton/>
         </div>
     );
 }
